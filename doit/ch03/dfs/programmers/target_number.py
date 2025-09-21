@@ -9,7 +9,7 @@ def solution(numbers, target):
             temp.append(j - i)
             
         leaves = temp
-        
+    print(leaves)
     for l in leaves:
         if l == target:
             count += 1
@@ -17,7 +17,7 @@ def solution(numbers, target):
     return count
                 
 
-numbers = [1, 1, 1, 1, 1]
-target = 3
+numbers = [4, 1, 2, 1]
+target = 4
 print(solution(numbers, target))  # 5
 # https://school.programmers.co.kr/learn/courses/30/lessons/431870
