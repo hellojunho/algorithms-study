@@ -1,0 +1,6 @@
+{
+  "github.copilot.enable": {
+    // Copilot is disabled
+    "enabled": false
+  }
+}
