@@ -22,6 +22,7 @@ def DSF(node):
             result.append(i)
             DSF(i + 1)
             visited[i] = False
-            print("pop: ", result.pop())
+            # print("pop: ", result.pop())
+            result.pop()
 
 DSF(1)
